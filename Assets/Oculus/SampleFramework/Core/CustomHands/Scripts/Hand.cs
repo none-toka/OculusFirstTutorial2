@@ -131,7 +131,7 @@ namespace OVRTouchSample
                 {
                     if (renderers[i].enabled)
                     {
-                        renderers[i].enabled = false;
+                        // renderers[i].enabled = false;
                         m_showAfterInputFocusAcquired.Add(renderers[i]);
                     }
                 }
